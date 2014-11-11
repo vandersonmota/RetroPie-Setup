@@ -3,7 +3,7 @@ rp_module_desc="MAME emulator MAME4All-Pi"
 rp_module_menus="2+"
 
 function sources_mame4all() {
-    gitPullOrClone "$rootdir/emulators/mame4all-pi" https://code.google.com/p/mame4all-pi/ NS
+    gitPullOrClone "$rootdir/emulators/mame4all-pi" https://github.com/vandersonmota/Raspicade-mame4all-xinmo.git
     sed -i "s/@mkdir/@mkdir -p/g" "$rootdir/emulators/mame4all-pi/Makefile"
 }
 
