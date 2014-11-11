@@ -3,7 +3,7 @@ rp_module_desc="FBA emulator PiFBA"
 rp_module_menus="2+"
 
 function sources_pifba() {
-    gitPullOrClone "$rootdir/emulators/pifba" https://code.google.com/p/pifba/ NS
+    gitPullOrClone "$rootdir/emulators/pifba" https://github.com/vandersonmota/Raspicade-pibfa-xinmo.git
 }
 
 function build_pifba() {
