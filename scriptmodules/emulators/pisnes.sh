@@ -3,7 +3,7 @@ rp_module_desc="SNES emulator PiSNES"
 rp_module_menus="2+"
 
 function sources_pisnes() {
-    gitPullOrClone "$rootdir/emulators/pisnes" https://code.google.com/p/pisnes/ NS
+    gitPullOrClone "$rootdir/emulators/pisnes" https://github.com/vandersonmota/Raspicade-pisnes-xinmo.git
 }
 
 function build_pisnes() {
